@@ -1,2 +1,3 @@
-# scrimba-web-dev-basics
-Simple projects developed while taking Scrimba frontend developer career path courses. Build with HTML &amp; CSS only.
+# Google Clone
+
+A very basic, non-functional Google clone build with HTML &amp; CSS only in order to practice web development fundamentals.
