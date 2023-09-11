@@ -1,0 +1,25 @@
+body, html {
+    margin: 0;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.img-profile {
+    width: 20%;
+    height: 20%;
+    min-width: 172px;
+    border-radius: 5%;
+    box-shadow: 3px 3px 1px #ccc;
+}
+
+input {
+    display: block;
+}
+
+.btn-newsletter {
+    display: block;
+    padding: 5px 10px;
+    margin: 8px 0;
+    cursor: pointer;
+    box-sizing: border-box;
+}
