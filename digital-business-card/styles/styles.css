@@ -1,7 +1,23 @@
 body {
     margin: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .avatar {
     width: 150px;
+    border-radius: 5px;
+    border: 3px solid #ddebf8;
+}
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    color: #2b2839;
+    background-color: #d8cefe;
+    border-bottom: 5px solid #ddebf8;
+    border-radius: 5px;
 }
