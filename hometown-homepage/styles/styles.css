@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #1D2D44;
+    display: flex;
+    flex-direction: column;
+}
+
+#hero {
+    background-image: url("../assets/images/brno-by-night.png");
+    background-size: cover;
+    height: 340px;
+    width: 720px;
+    color: #1D2D44;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title {
+    background: rgba(255, 255, 255, 1);
+    margin-top: 120px;
+    font-size: 32px;
+}
+
+#subtitle {
+    background: rgba(255, 255, 255, 1);
+    width: 400px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#title, #subtitle {
+    padding: 5px 30px;
+    border-radius: 10px;
+}
+
+#activities {
+    height: 380px;
+    width: 720px;
+    background: #f4f3ee;
+}
+
+.section-title {
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.activities-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 35px;
+}
+
+.activity-item img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.activity-description {
+    padding: 10px;
+    width: 150px;
+}
+
+.section-subtitle {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.section-text {
+    font-size: 12px;
+    font-weight: 300;
+}
+
+#tour-guide {
+    height: 290px;
+    width: 720px;
+}
+
+.avatar {
+    width: 180px;
+    border-radius: 5px;
+    border: 3px solid #FFDDD2;
+}
+
+.card {
+    width: 450px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-color: #1D2D44;
+    color: #f4f3ee;
+    border-radius: 5px;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+.tour-guide-intro {
+    margin-left: 30px;
+}
+
+.guide-description {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+#footer {
+    margin-top: auto;
+    font-size: 10px;
+}
